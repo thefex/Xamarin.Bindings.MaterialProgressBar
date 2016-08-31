@@ -1,0 +1,19 @@
+<metadata>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar.internal']/class[@name='ObjectAnimatorCompatBase']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar.internal']/class[@name='ObjectAnimatorCompatLollipop']" name="visibility">public</attr>
+
+  <!-- namespace contains android substring build failure -->
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']" name="managedName">XamarinBindings.MaterialProgressBar</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar.internal']" name="managedName">XamarinBindings.MaterialProgressBar.Internal</attr>
+
+  
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateHorizontalProgressDrawable']/method[@name='setColorFilter' and count(parameter)=1 and parameter[1][@type='android.graphics.ColorFilter']]" name="propertyName"></attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateProgressDrawable']/method[@name='setColorFilter' and count(parameter)=1 and parameter[1][@type='android.graphics.ColorFilter']]" name="propertyName"></attr>
+  
+  <!-- visibility issues / public class cant inherit from packaged one.. -->
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='IndeterminateProgressDrawableBase']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='SingleHorizontalProgressDrawable']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='ProgressDrawableBase']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='Animators']" name="visibility">public</attr>
+  <attr path="/api/package[@name='me.zhanghai.android.materialprogressbar']/class[@name='Interpolators']" name="visibility">public</attr>
+</metadata>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata minClientVersion="3.2">
+        <title>Xamarin.Bindings.MaterialProgressBar</title>
+        <id>Xamarin.Bindings.MaterialProgressBar</id>
+        <version>1.1.7</version>
+        <authors>Przemysław Raciborski [thefex] for Bindings Library, DreaminginCodeZH, Zhang Hai (https://github.com/DreaminginCodeZH/) orginal Java Library</authors>
+        <description>Xamarin Bindings for great "MaterialProgressBar" Java/Android library. Consistent look on 4.0+ (API14+)</description>
+        <dependencies>
+          <group targetFramework="MonoAndroid">
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="23.4.0.1"/>
+          </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="\bin\Release\Xamarin.Bindings.MaterialProgressBar.dll" target="lib\MonoAndroid" />
+    </files>
+</package>
